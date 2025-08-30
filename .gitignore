@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Home Assistant secrets
+secrets.yaml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Python virtual environments
+.env/
+venv/
