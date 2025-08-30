@@ -43,7 +43,7 @@ blueprint:
           filter:
             - integration: wled
           multiple: true
-  # source_url: https://gist.github.com/dreed47/b33a76472cc813f7bf48a63c3dde7dce
+  source_url: https://gist.github.com/dreed47/b33a76472cc813f7bf48a63c3dde7dce
 alias: Bambu Status WLED
 description: "Modified version of PaulBiod's HA-bambulab-wled.yaml to work with WLED segments"
 trigger:
