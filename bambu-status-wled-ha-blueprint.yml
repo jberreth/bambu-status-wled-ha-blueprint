@@ -165,14 +165,14 @@ action:
               - service: light.turn_on
                 data:
                   rgb_color:
+                    - 0
                     - 255
-                    - 255
-                    - 255
+                    - 0
                   brightness: 255
-                  effect: Solid
+                  effect: Percent
                 target:
                   entity_id: !input wled_lights
-                alias: Turn on Wled to full white while printing
+                alias: Turn on Wled Percent effect with green fill while printing
         alias: Do we need to set color to white?
       - choose:
           - conditions:
