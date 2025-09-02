@@ -188,11 +188,11 @@ action:
               - service: light.turn_on
                 data:
                   rgb_color:
+                    - 0
                     - 255
-                    - 255
-                    - 255
+                    - 0
                   brightness: 255
-                  effect: Solid
+                  effect: Dancing Shadows
                 target:
                   entity_id: !input wled_lights
                 alias: Turn on Wled to white to check if loading/unloading is ok
@@ -252,7 +252,7 @@ action:
                     - 0
                     - 255
                   brightness: 255
-                  effect: Blink
+                  effect: Chase 2
                 target:
                   entity_id: !input wled_lights
                 alias: Turn on Wled to blue
@@ -275,7 +275,7 @@ action:
                     - 169
                     - 0
                   brightness: 255
-                  effect: Blink
+                  effect: Drip
                 target:
                   entity_id: !input wled_lights
                 alias: Turn on Wled to yellow
